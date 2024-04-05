@@ -18,8 +18,7 @@ EXPOSE 8080
 
 # initialize conf files
 ADD https://raw.githubusercontent.com/containers/libpod/master/contrib/podmanimage/stable/containers.conf /etc/containers/containers.conf
-ADD https://raw.githubusercontent.com/containers/libpod/master/contrib/podmanimage/stable/podman-containers.conf /home/podman-desktop/.config/containers/containers.conf
-
+ADD 
 
 
 ENV _CONTAINERS_USERNS_CONFIGURED=""
