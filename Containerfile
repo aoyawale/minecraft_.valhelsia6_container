@@ -19,7 +19,7 @@ EXPOSE 8080
 # initialize conf files
 ADD
 ADD 
-
+ADD
 RUN /home/minecraft/ServerStart.sh &
 
 
