@@ -17,10 +17,9 @@ RUN rm -rf /home/minecraft/Valhelsia-6-6.1.0-SERVER.zip
 EXPOSE 8080
 
 # initialize conf files
-ADD https://raw.githubusercontent.com/containers/libpod/master/contrib/podmanimage/stable/containers.conf /etc/containers/containers.conf
+ADD
 ADD 
 
-
-ENV _CONTAINERS_USERNS_CONFIGURED=""
+RUN /home/minecraft/ServerStart.sh &
 
 
