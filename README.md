@@ -7,4 +7,4 @@ The serverStartup.sh file and server.properties are there as examples of things 
 After everything is done then the serverStartup.sh is ran to start the minecraft server.
 
 location of service file /etc/systemd/system/minecraft.service
-Docker run -d -p 25565:25565 -v /home/minecraft:/data --name mc -e EULA=TRUE --restart always
+podman run -d -p 25565:25565 -v /home/minecraft:/data --name mc -e EULA=TRUE --restart always
