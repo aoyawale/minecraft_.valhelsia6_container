@@ -15,6 +15,9 @@ COPY server.properties /home/minecraft/server.properties
 RUN rm -rf /home/minecraft/Valhelsia-6-6.1.0-SERVER.zip
 EXPOSE 25565 25575
 USER minecraft
+VOLUME ["/data"]
+WORKDIR "/data"
+
 # ADD Variables
 ENV VERSION='6-6.1.0'
 
