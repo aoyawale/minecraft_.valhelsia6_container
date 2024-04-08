@@ -20,7 +20,7 @@ WORKDIR "/data"
 
 # ADD Variables
 ENV VERSION='6-6.1.0'
-
+ENV EULA=""
 #ADD
 #ADD 
 #ADD
